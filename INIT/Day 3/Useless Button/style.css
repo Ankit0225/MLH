@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: block;
+}
+.box{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #eef5ca,#eefeca);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.btn{
+    padding: 100px;
+    
+    background: linear-gradient(120deg, green,pink,blue);
+    text-align: left;
+    border-radius: 50%;
+}
