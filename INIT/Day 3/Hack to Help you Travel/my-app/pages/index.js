@@ -10,7 +10,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Major League Packing!</a>
+          Welcome to <a href="https://nextjs.org">Rest Resturants!</a>
         </h1>
 
         <p className="description">
