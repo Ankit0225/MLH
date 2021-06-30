@@ -1,5 +1,6 @@
 const btn = document.querySelector('.btn')
-
+const audio = document.querySelector('.audio')
 btn.addEventListener('click', ()=> {
-   console.log('clicked');
+   audio.play()
+   console.log('play');
 })
