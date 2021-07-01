@@ -19,6 +19,7 @@ export default function Home() {
               <span className="header-title-yellow">Banking</span>
           </h1>
         </header>
+        
       </main>
 
     
