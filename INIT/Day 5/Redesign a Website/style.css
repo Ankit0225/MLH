@@ -1,0 +1,523 @@
+*{
+ box-sizing: border-box;
+}
+body{
+    background-color: rgb(10, 10, 10);
+    color: rgb(253,253,254);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+div{
+    display: block;
+}
+section{
+    display: block;
+}
+.fixed{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .95);
+    color: rgb(250, 250, 250);
+    z-index: 100;
+    padding: 30px 150px;
+    transform: translateY(-100%);
+    transition: transform 0.5s ease;
+
+}
+@media only screen and (min-width: 760px) and (max-width: 1300px) {
+   .fixed{
+       padding: 0px 60px;
+   }
+}
+.fixed1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.cred-logo-1{
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+}
+.cred-logo{
+    width: 50px;
+    height: 70px;
+}
+@media only screen and (min-width: 760px) and (max-width: 1300px) {
+    .cred-logo{
+        width: 35px;
+        height: 48px;
+    }
+}
+
+.elements{
+    display: flex;
+    align-items: center;
+}
+.blog{
+    padding: 5px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+     
+}
+.link-1{
+ margin-left: 40px;
+ font-size: 20px;
+ letter-spacing: 0px;
+}
+.blog > a{
+    color: rgb(253,253,254);
+    opacity: 0.9;
+    font-size: 20px;
+    line-height: 40px;
+    margin-right: 25px;
+}
+.careers{
+    padding: 5px;
+    position: relative;
+    text-align: center;
+}
+.careers > a{
+    color: rgb(253,253,254);
+    opacity: 0.9;
+    font-size: 20px;
+    line-height: 40px;
+    margin-right: 25px;
+}
+.Download-CRED-1{
+    cursor: pointer;
+    margin-left: 40px;
+    font-size: 20px;
+    line-height: 20px;
+    border: 1px solid rgb(250, 250, 250);
+    border-radius: 25px;
+    padding: 15px 33px;
+    outline: none;
+}
+@media only screen and (min-width: 760px) and (max-width: 1300px) {
+    .Download-CRED-1{
+        cursor: none;
+        font-size: 14px;
+        padding: 10px 28px;
+    }
+}
+
+.box-header{
+    height: 900px;
+    width: 100vw;
+    position: relative;
+    background-color: rgb(10, 10, 10);
+    color: rgb(250, 250, 250);
+    overflow: hidden;
+    padding: 35px 80px;
+    background-image: url(./public/black.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+@media only screen and (min-width: 760px) and (max-width: 1300px) {
+    .box-header{
+        padding: 30 60px 100px;
+    } 
+ }
+.image-context-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-1{
+    display: flex;
+    align-items: center;
+}
+.cred-logo-2{
+    width: 50px;
+    height: 70px;
+}
+@media only screen and (min-width: 760px) and (max-width: 1300px) {
+    .cred-logo-2{
+        width: 35px;
+        height: 48px;
+    }
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+
+.context-area{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+@media screen and (max-width: 400px) {
+    .context-area{
+        align-items: flex-start;
+
+    }
+}
+.rewards{
+    font-size: 100px;
+    margin-top: 100px;
+    text-align: center;
+}
+@media screen and (min-width: 770px) and (max-width: 999px) {
+    .rewards{
+        font-size: 90px;
+        line-height: 85px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .rewards{
+        font-size: 60px;
+        line-height: 55px;
+        text-align: left;
+
+    }
+}
+.join{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-top: 18px;
+    text-align: center;
+}
+@media screen and (min-width: 770px) and (max-width: 999px) {
+    .join{
+        font-size: 18px;
+        line-height: 19px;
+        text-align: left;
+        width: 300px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .join{
+        font-size: 16px;
+        line-height: 19px;
+        text-align: left;
+
+    }
+}
+.Download-CRED-2{
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    color: black;
+    background-color: azure;
+    padding: 20px 65px;
+    font-size: 24px;
+    border: 1px solid white;
+    border-radius: 40px;
+    margin-top: 50px;
+}
+@media only screen and (min-width: 481px) and (max-width: 767px){
+.Download-CRED-2 {
+    margin-top: 35px;
+    
+}
+
+}
+.box-one{
+    height: 900px;
+    width: 100vw;
+    background-image: url(./public/mobile-background.png);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px){
+    .box-one {
+    height: 620px;
+ }
+}
+.mobile{
+    position: absolute;
+    left: 50%;
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px){
+    .mobile {
+    width: 250px;
+ }
+}
+@media only screen and(max-width: 479px){
+    .mobile {
+    width: 100px;
+ }
+}
+.box-two{
+    min-height: 900px;
+    width: 100vw;
+    position: relative;
+    padding: 250px 200px 150px;
+    color: rgb(250, 250, 250);
+    background-color: rgb(240,50,40);
+    background-image: url(./public/pink\ background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    z-index: 10;
+    margin-top: -100px;
+}
+.big-text{
+    font-size: 110px;
+    font-weight: bold;
+    line-height: 104px;
+    opacity: 0.9;
+    white-space: pre-line;
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px){
+    .big-text {
+        white-space: initial;
+     max-width: 650px;
+ }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    .big-text {
+    font-size: 90px;
+    line-height: 80px;
+     max-width: 80%;
+ }
+}
+@media only screen and (max-width: 479px){
+    .big-text {
+    font-size: 60px;
+    
+ }
+}
+.small-text{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 36px;
+    white-space: pre-line;
+    max-width: 650px;
+}
+@media only screen and (min-width: 780px) and (max-width: 1280px){
+    .small-text {
+    font-size: 25px;
+    line-height: 30px;
+    
+ }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    .small-text {
+    font-size: 20px;
+    line-height: 25px;
+     margin-top: 30px;
+ }
+}
+.para-1{
+    font-size: 20px;
+    font-weight: bold;
+    white-space: pre-line;
+    max-width: 650px;
+    margin-bottom: 80px;
+}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    .para-1 {
+    font-size: 15px;
+    line-height: 20px;
+    max-width: 550px;
+    margin-bottom: 10px;
+ }
+}
+.explore-rewards{
+    background-color: rgb(250, 250, 250);
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    display: inline-flex;
+    color: black;
+    padding: 20px 55px;
+    border-radius: 40px;
+    line-height: 32px;
+}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    .explore-rewards{
+        font-size: 20px;
+        line-height: 20px;
+        padding: 15px 27px;
+    }
+}
+.brands{
+   position: relative;
+   color: rgb(10, 10, 10);
+   background-color: rgb(253,253,254);
+   padding: 50px 200px;
+}
+.brand-name{
+    display: flex;
+    align-items: flex-end;
+}
+.by-brands{
+    font-size: 30px;
+    line-height: 40px;
+    white-space: pre-line;
+    font-weight: 500;
+}
+.brand-logo{
+    background-image: url(./public/brands.png);
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 100%;
+    margin-top: 50px;
+    background-size: 100%;
+    background-position: center;
+}
+@media screen and (max-width: 770px) {
+    .brand-logo{
+        margin-top: 40px;
+        background-image: url(https://web-assets.cred.club/_next/assets/images/home-page/brands-mobile.png);
+        background-size: contain;
+        background-position: left center;
+        height: 300px;
+    }
+}
+.box-three{
+    background-image: url(./public/monet-matters.jpg);
+    height: 1050px;
+    width: 100vw;
+    background-size: cover;
+    background-color: rgb(30,76,232);
+    display: flex;
+    padding: 250px 200px 200px;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: column;
+}
+@media screen and (min-width: 770px) and (max-width: 1290px) {
+    .box-three{
+        background-position: center center;
+        padding: 100px;
+    }
+}
+.money-matters{
+    font-size: 110px;
+    font-weight: bold;
+    line-height: 104px;
+    opacity: 0.9;
+    white-space: pre-line;
+    max-width: 700px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px){
+    .money-matters {
+        white-space: initial;
+     max-width: 650px;
+ }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    .money-matters {
+    font-size: 90px;
+    line-height: 80px;
+     max-width: 80%;
+ }
+}
+@media only screen and (max-width: 479px){
+    .money-matters {
+    font-size: 60px;
+    
+ }
+}
+.money-description{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 36px;
+    white-space: pre-line;
+    max-width: 650px;
+}
+@media only screen and (min-width: 780px) and (max-width: 1280px){
+    .money-description {
+    font-size: 25px;
+    line-height: 30px;
+    
+ }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    .money-description {
+    font-size: 20px;
+    line-height: 25px;
+     margin-top: 30px;
+ }
+}
+.para-2{
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: bold;
+    white-space: pre-line;
+    max-width: 650px;
+    margin-bottom: 80px;
+}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    .para-2 {
+    font-size: 15px;
+    line-height: 20px;
+    max-width: 550px;
+    margin-bottom: 10px;
+ }
+}
+.experience{
+    background-color: rgb(250, 250, 250);
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    display: inline-flex;
+    color: black;
+    padding: 20px 55px;
+    border-radius: 40px;
+    line-height: 32px;
+}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    .experience{
+        font-size: 20px;
+        line-height: 20px;
+        padding: 15px 27px;
+    }
+}
+
+.transition{
+    background-image: url(./public/black.png);
+    background-size: cover;
+    height: 900px;
+    width: 100vw;
+    color: rgb(253,253,254);
+    background-color: rgb(10, 10, 10);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 250px 200px;
+}
+@media screen and (min-width: 770px) and (max-width: 1280px) {
+    .transition{
+        padding: 50px 100px 100px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 770px) {
+    .transition{
+        padding: 50px;
+    }
+}
+.multi{
+    background-image: url(./public/minwidth80.jpg);
+    height: 600px;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+@media (max-width: 480px) {
+    .multi{
+       display: none;
+    }
+}
